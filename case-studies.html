@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fa">
+  <meta name="description" content="Read Sai Hitesh Bommagani’s selected engineering work in education, lead attribution, healthcare, and confidential peer support.">
+  <title>Selected work | Sai Hitesh Bommagani</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css?v=4">
+  <script>(function(){var d=document.documentElement,t;try{t=localStorage.getItem('theme')}catch(e){}if(t!=='dark'&&t!=='light')t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';d.dataset.theme=t;document.querySelector('meta[name="theme-color"]').content=t==='dark'?'#0e1014':'#f7f8fa'})()</script>
+</head>
+<body class="reading-page">
+  <a class="skip-link" href="#main">Skip to case studies</a>
+  <main id="main" class="section-shell" style="max-width:940px;margin:auto;padding-top:50px;">
+    <header class="case-content" style="padding-top:0;">
+      <a class="quiet-link" href="index.html#work"><span aria-hidden="true">←</span> Back to portfolio</a>
+      <p class="section-name" style="margin-top:40px;">Selected work</p>
+      <h1 style="font-size:clamp(42px,7vw,68px);line-height:1.1;letter-spacing:-.05em;">Engineering in practice.</h1>
+      <nav id="case-toc" aria-label="Case studies" style="margin-top:32px;scroll-margin-top:24px;">
+        <ul style="padding-left:18px;line-height:1.9;">
+          <li><a href="#mcgraw">McGraw Hill</a></li>
+          <li><a href="#brainbridge">Brain Bridge Labs</a></li>
+          <li><a href="#healthcare">MyPeps &amp; Bridge-to-Care</a></li>
+          <li><a href="#vantage">Vantage West · CUCAN</a></li>
+        </ul>
+      </nav>
+    </header>
+      <article class="case-content" id="mcgraw" aria-labelledby="mcgraw-title" style="border-top:1px solid var(--line);padding-top:48px;padding-bottom:48px;scroll-margin-top:24px;">
+        <p class="case-date">May to August 2026</p>
+        <h2 id="mcgraw-title">From one objective to a complete lesson kit.</h2>
+        <p class="case-role">AI/ML Engineer, Contract · McGraw Hill · Eller Immersion Learning</p>
+        <p class="case-summary">Built a textbook-grounded RAG engine that turns a learning objective into a citable outline, teaching script, slides, and assessments.</p>
+        <section aria-labelledby="mcgraw-section-0">
+          <h3 id="mcgraw-section-0">The workflow</h3>
+          <p>Instructors needed a faster path from a learning objective to lesson material they could trace back to the textbook. The engine connected retrieval, generation, and evaluation in one delivery flow.</p>
+        </section>
+        <section aria-labelledby="mcgraw-section-1">
+          <h3 id="mcgraw-section-1">What I built</h3>
+          <ul>
+            <li>Retrieval grounding with PostgreSQL, pgvector, and Voyage embeddings.</li>
+            <li>A Python and FastAPI generation pipeline using the Claude API.</li>
+            <li>Progressive QA gates, LLM-as-judge evaluation, and bounded auto-refinement to keep the lesson within scope.</li>
+            <li>A React and TypeScript delivery interface for the generated teaching material.</li>
+          </ul>
+        </section>
+        <p class="case-outcome">Reduced lecture preparation from hours to minutes. Delivered a production-ready proof of concept to the client.</p>
+        <p class="case-stack">Python · FastAPI · PostgreSQL · pgvector · Claude API · Voyage embeddings · React · TypeScript</p>
+        <a class="quiet-link" href="#case-toc">Back to case studies <span aria-hidden="true">↑</span></a>
+      </article>
+
+      <article class="case-content" id="brainbridge" aria-labelledby="brainbridge-title" style="border-top:1px solid var(--line);padding-top:48px;padding-bottom:48px;scroll-margin-top:24px;">
+        <p class="case-date">May to August 2026</p>
+        <h2 id="brainbridge-title">Turning anonymous traffic into attributed leads.</h2>
+        <p class="case-role">Forward Deployed AI Engineer Intern · Brain Bridge Labs</p>
+        <p class="case-summary">Shipped a serverless Python pipeline that connects website activity to CRM records, then brought chatbot conversations into the same lead flow.</p>
+        <section aria-labelledby="brainbridge-section-0">
+          <h3 id="brainbridge-section-0">The workflow</h3>
+          <p>A website with 600 monthly visitors had no prior lead capture. The project covered the forward deployed loop, from selecting the work based on potential value to shipping and checking the resulting lead flow.</p>
+        </section>
+        <section aria-labelledby="brainbridge-section-1">
+          <h3 id="brainbridge-section-1">What I built</h3>
+          <ul>
+            <li>A serverless Python pipeline on AWS Lambda and API Gateway, provisioned with AWS CDK.</li>
+            <li>Consistent CRM routing for both form submissions and conversational leads from an embedded AI chatbot.</li>
+            <li>A fix for a silent attribution failure that had filed every lead under a fallback source.</li>
+            <li>Verification with 27 pytest unit tests and 10 Playwright end-to-end tests.</li>
+          </ul>
+        </section>
+        <p class="case-outcome">Restored attribution across 35+ campaigns. The lead-capture pipeline was modeled to add roughly $2K per year in new sales pipeline; that figure is modeled potential, not realized revenue.</p>
+        <p class="case-stack">Python · AWS Lambda · API Gateway · AWS CDK · pytest · Playwright</p>
+        <a class="quiet-link" href="#case-toc">Back to case studies <span aria-hidden="true">↑</span></a>
+      </article>
+
+      <article class="case-content" id="healthcare" aria-labelledby="healthcare-title" style="border-top:1px solid var(--line);padding-top:48px;padding-bottom:48px;scroll-margin-top:24px;">
+        <p class="case-date">February to May 2026 / April 2026</p>
+        <h2 id="healthcare-title">Making complex patient data easier to work with.</h2>
+        <p class="case-role">Two separate projects: MyPeps and Bridge-to-Care</p>
+        <p class="case-summary">Healthcare work focused my attention on context, structured data, and the reliability of the workflow around the model.</p>
+        <section aria-labelledby="healthcare-section-0">
+          <h3 id="healthcare-section-0">MyPeps · AI Engineer · February to May 2026</h3>
+          <p>Built a Python integration layer using the Claude API and PyMuPDF to extract structured data from PDF and image-based lab reports. The ingestion pipeline generated patient wellness insights and provider follow-up notes using RAG-style prompt construction.</p>
+          <ul>
+            <li>Reference-range validation and diagnostic guardrails.</li>
+            <li>Audit logging and session validation middleware.</li>
+            <li>Reusable backend components for more reliable clinical-data handling.</li>
+          </ul>
+        </section>
+        <section aria-labelledby="healthcare-section-1">
+          <h3 id="healthcare-section-1">Bridge-to-Care · Project · April 2026</h3>
+          <p>Built a modular backend and developer-facing platform for processing daily patient check-ins, using four-tier risk scoring, custom safety logic, and generated clinician PDF reports.</p>
+          <ul>
+            <li>React and TypeScript interface, with the Google Gemini API.</li>
+            <li>A production-ready backend structured around check-in data and clinician review.</li>
+          </ul>
+        </section>
+        <p class="case-outcome">Two distinct applications of AI to healthcare workflows: structured lab-report ingestion and daily check-in triage.</p>
+        <p class="case-stack">MyPeps: Python · Claude API · PyMuPDF. Bridge-to-Care: React · TypeScript · Gemini API · Tailwind</p>
+        <a class="quiet-link" href="#case-toc">Back to case studies <span aria-hidden="true">↑</span></a>
+      </article>
+
+      <article class="case-content" id="vantage" aria-labelledby="vantage-title" style="border-top:1px solid var(--line);padding-top:48px;padding-bottom:48px;scroll-margin-top:24px;">
+        <p class="case-date">May to August 2026</p>
+        <h2 id="vantage-title">Peer support designed around trust.</h2>
+        <p class="case-role">Full-Stack Developer, Contract · Vantage West · Eller Immersion Learning</p>
+        <p class="case-summary">Built CUCAN, a confidential mutual-aid platform where credit unions can request and offer peer support anonymously.</p>
+        <section aria-labelledby="vantage-section-0">
+          <h3 id="vantage-section-0">The workflow</h3>
+          <p>Institutions needed to ask for help while retaining control of their identity. The platform keeps requests anonymous and reveals identities only after both parties consent.</p>
+        </section>
+        <section aria-labelledby="vantage-section-1">
+          <h3 id="vantage-section-1">What I built</h3>
+          <ul>
+            <li>Two-party consent for identity disclosure, with PII detection.</li>
+            <li>Per-user non-solicitation pledge gating and a plain-language audit log.</li>
+            <li>Member verification against the NCUA roster of 4,200+ federally insured credit unions, with geography-scoped request visibility.</li>
+            <li>A FastAPI, SQLModel, PostgreSQL, Jinja2, and Tailwind application deployed on Render.</li>
+          </ul>
+        </section>
+        <p class="case-outcome">Verified the platform with 175+ automated tests. The 4,200+ figure describes the verification roster, not the number of users.</p>
+        <p class="case-stack">FastAPI · SQLModel · PostgreSQL · Jinja2 · Tailwind · Render</p>
+        <a class="quiet-link" href="#case-toc">Back to case studies <span aria-hidden="true">↑</span></a>
+      </article>
+    <footer class="case-content" style="border-top:1px solid var(--line);">
+      <a class="quiet-link" href="index.html#work"><span aria-hidden="true">←</span> Back to portfolio</a>
+    </footer>
+  </main>
+</body>
+</html>
